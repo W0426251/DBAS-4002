@@ -1,10 +1,12 @@
+use Chinook;
+
 /*Create a query that returns only customers who have specified a company*/
 SELECT * FROM Customer
 WHERE Company IS NOT NULL;
 /*Create a query that returns only tracks that do not specify a composer.*/
 SELECT * FROM Track
 WHERE Composer IS NULL;
-use Chinook;
+
 
 /*Create a query that returns all tracks that are love songs (ie, contain the word ‘Love’).*/
 SELECT * FROM Track
